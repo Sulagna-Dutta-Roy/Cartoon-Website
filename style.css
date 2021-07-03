@@ -1,0 +1,108 @@
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'monserrat',sans-serif;
+}
+.head .logo{
+    margin-left: 20px;
+}
+.heading{
+    display: flex;
+    float:right;
+    margin-right: 40px;
+    justify-content: space-around;
+}
+.heading a{
+    float: right;
+    margin-right: 30px;
+}
+.image{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 50px;
+}
+.filter{
+    text-align: center;
+}
+.show-carousel{
+    text-align: center;
+}
+
+.slider{
+    width: 40%;
+    display: flex;
+    margin-left:300px;
+}
+.programme{
+    background-color: rgb(238, 73, 13);
+    margin: 10px 80px 70px 60px;
+    height: 290px;
+}
+.container-fluid span{
+    display: flex;
+    float: right;
+    height: 10px;
+    margin-right: 15px;
+    background-color: rgb(238, 73, 13);
+    color: #fff;
+}
+.logo{
+    color: #fff;
+    height: 10px;
+}
+.next{
+    display: flex;
+    justify-content: space-around;
+}
+.photos1{
+    border: 20px  #fff  solid !important;
+}
+.show {
+    text-align: center;
+}
+.show button{
+    float: right;
+}
+.introduction1 {
+    text-align: center;
+    background-color: rgb(199, 221, 230);
+    color: rgba(30, 29, 102, 0.562);
+    text-transform: uppercase;
+    box-shadow: 0 2rem 0 #eeecec;
+}
+.introduction1 p{
+    padding: 20px 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.links{
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+    color: darkblue;
+}
+.copyright{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 80px;
+    color: darkblue;
+}
+.copyright p{
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer{
+    margin-top: 5px;
+    padding-bottom:0px;
+}
+@media only screen and (max-width:998px){
+    .characters{
+        display: block;
+        font-size: medium;
+    }
+}
